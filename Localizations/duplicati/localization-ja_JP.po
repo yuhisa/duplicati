@@ -171,7 +171,7 @@ msgstr ""
 
 #: Server/Strings.cs:37 Library/Main/Strings.cs:220
 msgid "Clean up old log data"
-msgstr ""
+msgstr "古いログデータをクリーンアップ"
 
 #: Server/Strings.cs:38 Library/Main/Strings.cs:221
 msgid "Set the time after which log data will be purged from the database."
@@ -203,7 +203,7 @@ msgstr ""
 
 #: Server/Strings.cs:43 Library/Main/Strings.cs:74
 msgid "Temporary storage folder"
-msgstr ""
+msgstr "一時フォルダ"
 
 #: Server/Strings.cs:44 Library/Main/Strings.cs:75
 msgid ""
@@ -244,11 +244,11 @@ msgstr ""
 
 #: Library/Encryption/Strings.cs:5
 msgid "AES-256 encryption, built in"
-msgstr ""
+msgstr "AES-256 暗号化, 内蔵"
 
 #: Library/Encryption/Strings.cs:6
 msgid "Empty passphrase not allowed"
-msgstr ""
+msgstr "空のパスフレーズは許可されていません"
 
 #: Library/Encryption/Strings.cs:7
 msgid ""
@@ -264,7 +264,7 @@ msgstr ""
 #: Library/Encryption/Strings.cs:11
 #, csharp-format
 msgid "Failed to decrypt data (invalid passphrase?): {0}"
-msgstr ""
+msgstr "ファイルの複合に失敗 (無効なパスフレーズ): {0}"
 
 #: Library/Encryption/Strings.cs:14
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 
 #: Library/Encryption/Strings.cs:15
 msgid "GNU Privacy Guard, external"
-msgstr ""
+msgstr "GNU Privacy Guard, 外部"
 
 #: Library/Encryption/Strings.cs:16
 msgid ""
@@ -323,7 +323,7 @@ msgstr ""
 
 #: Library/Encryption/Strings.cs:24
 msgid "The path to GnuPG"
-msgstr ""
+msgstr "GnuPG のパス"
 
 #: Library/Encryption/Strings.cs:25
 #, csharp-format
@@ -363,7 +363,7 @@ msgstr ""
 #: Library/Encryption/Strings.cs:34
 #, csharp-format
 msgid "Decryption failed: {0}"
-msgstr ""
+msgstr "複合失敗: {0}"
 
 #: Library/Encryption/Strings.cs:35
 msgid "Failure while invoking GnuPG, program won't flush output"
@@ -375,47 +375,47 @@ msgstr ""
 
 #: Library/Interface/Strings.cs:4
 msgid "aliases"
-msgstr ""
+msgstr "エイリアス"
 
 #: Library/Interface/Strings.cs:5
 msgid "default value"
-msgstr ""
+msgstr "初期値"
 
 #: Library/Interface/Strings.cs:6
 msgid "[DEPRECATED]"
-msgstr ""
+msgstr "[非推奨]"
 
 #: Library/Interface/Strings.cs:7
 msgid "values"
-msgstr ""
+msgstr "値"
 
 #: Library/Interface/Strings.cs:10
 msgid "Boolean"
-msgstr ""
+msgstr "真偽値"
 
 #: Library/Interface/Strings.cs:11
 msgid "Enumeration"
-msgstr ""
+msgstr "列挙"
 
 #: Library/Interface/Strings.cs:12
 msgid "Flags"
-msgstr ""
+msgstr "フラグ"
 
 #: Library/Interface/Strings.cs:13
 msgid "Integer"
-msgstr ""
+msgstr "整数"
 
 #: Library/Interface/Strings.cs:14
 msgid "Path"
-msgstr ""
+msgstr "パス"
 
 #: Library/Interface/Strings.cs:15
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: Library/Interface/Strings.cs:16
 msgid "String"
-msgstr ""
+msgstr "文字列"
 
 #: Library/Interface/Strings.cs:17
 msgid "Timespan"
@@ -423,7 +423,7 @@ msgstr ""
 
 #: Library/Interface/Strings.cs:18
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #: Library/Interface/Strings.cs:21
 #, csharp-format
@@ -433,16 +433,16 @@ msgstr ""
 
 #: Library/Interface/Strings.cs:22
 msgid "Do you want to test the connection?"
-msgstr ""
+msgstr "接続をテストしますか？"
 
 #: Library/Interface/Strings.cs:23
 #, csharp-format
 msgid "Connection Failed: {0}"
-msgstr ""
+msgstr "接続失敗: {0}"
 
 #: Library/Interface/Strings.cs:24
 msgid "Connection succeeded!"
-msgstr ""
+msgstr "接続成功"
 
 #: Library/Interface/Strings.cs:25
 msgid ""
@@ -452,21 +452,23 @@ msgstr ""
 
 #: Library/Interface/Strings.cs:26
 msgid "You must enter a password"
-msgstr ""
+msgstr "パスワードを入力する必要があります"
 
 #: Library/Interface/Strings.cs:27
 msgid ""
 "You have not entered a password.\n"
 "Proceed without a password?"
 msgstr ""
+"パスワードが入力されていません。\n"
+"パスワードを入力せずに続けますか？"
 
 #: Library/Interface/Strings.cs:29
 msgid "You must enter the name of the server"
-msgstr ""
+msgstr "サーバー名が入力されていません"
 
 #: Library/Interface/Strings.cs:30
 msgid "You must enter a username"
-msgstr ""
+msgstr "ユーザー名が入力されていません"
 
 #: Library/Interface/Strings.cs:31
 msgid ""
@@ -474,6 +476,9 @@ msgid ""
 "This is fine if the server allows anonymous uploads, but likely a username is required\n"
 "Proceed without a username?"
 msgstr ""
+"ユーザー名が入力されていません。\n"
+"anonymous アップロードが許可されている必要があります\n"
+"ユーザー名を入力せずに続けますか？"
 
 #: Library/Interface/Strings.cs:34
 msgid ""
@@ -484,29 +489,29 @@ msgstr ""
 
 #: Library/Interface/Strings.cs:37
 msgid "The folder cannot be created because it already exists"
-msgstr ""
+msgstr "既に存在しているためフォルダを作成できませんでした"
 
 #: Library/Interface/Strings.cs:38
 msgid "Folder created!"
-msgstr ""
+msgstr "フォルダを作成しました"
 
 #: Library/Interface/Strings.cs:39
 msgid "The requested folder does not exist"
-msgstr ""
+msgstr "リクエストされたフォルダは存在しません"
 
 #: Library/Interface/Strings.cs:40
 #, csharp-format
 msgid "The server name \"{0}\" is not valid"
-msgstr ""
+msgstr "サーバー名 \"{0}\" は無効です"
 
 #: Library/Interface/Strings.cs:41
 msgid "Cancelled"
-msgstr ""
+msgstr "キャンセルしました"
 
 #: Library/Interface/CustomExceptions.cs:82
 #: Library/Interface/CustomExceptions.cs:90
 msgid "The requested file does not exist"
-msgstr ""
+msgstr "リクエストされたファイルは存在しません"
 
 #: Library/Snapshots/Strings.cs:4
 #, csharp-format
@@ -720,7 +725,7 @@ msgstr ""
 
 #: Library/Backend/FTP/Strings.cs:9 Library/Backend/FTP/Strings.cs:11
 msgid "Toggles the FTP connections method"
-msgstr ""
+msgstr "FTP 接続のメソッドを変更する"
 
 #: Library/Backend/FTP/Strings.cs:10
 msgid ""
@@ -760,7 +765,7 @@ msgstr "FTP"
 #: Library/Backend/TahoeLAFS/Strings.cs:8
 #, csharp-format
 msgid "The folder {0} was not found, message: {1}"
-msgstr ""
+msgstr "フォルダ {0} は見つかりませんでした。メッセージ: {1}"
 
 #: Library/Backend/FTP/Strings.cs:20
 #: Library/Backend/AlternativeFTP/Strings.cs:16
@@ -803,7 +808,7 @@ msgstr ""
 #: Library/Backend/HubiC/Strings.cs:24 Library/Backend/Dropbox/Strings.cs:24
 #: Library/Backend/OAuthHelper/Strings.cs:9
 msgid "The authorization code"
-msgstr ""
+msgstr "認証情報"
 
 #: Library/Backend/AmazonCloudDrive/Strings.cs:25
 #: Library/Backend/GoogleServices/Strings.cs:27
@@ -813,7 +818,7 @@ msgstr ""
 #: Library/Backend/OAuthHelper/Strings.cs:10
 #, csharp-format
 msgid "The authorization token retrieved from {0}"
-msgstr ""
+msgstr "認証情報を {0} から取得しました"
 
 #: Library/Backend/AmazonCloudDrive/Strings.cs:26
 msgid "Amazon Cloud Drive"
@@ -977,11 +982,11 @@ msgstr ""
 
 #: Library/Backend/CloudFiles/Strings.cs:18
 msgid "MD5 Hash (ETag) verification failed"
-msgstr ""
+msgstr "MD5 ハッシュ (ETag) 照合に失敗しました"
 
 #: Library/Backend/CloudFiles/Strings.cs:19
 msgid "Failed to delete file"
-msgstr "ファイル削除に失敗しました"
+msgstr "ファイルの削除に失敗しました"
 
 #: Library/Backend/CloudFiles/Strings.cs:20
 #: Library/Backend/Jottacloud/Strings.cs:11
@@ -1156,7 +1161,7 @@ msgstr ""
 #: Library/Backend/AlternativeFTP/Strings.cs:15
 #, csharp-format
 msgid "The folder {0} was not found. Message: {1}"
-msgstr "フォルダ「 {0} 」が見つかりません。メッセージ: {1}"
+msgstr "フォルダ「 {0} 」は見つかりませんでした。メッセージ: {1}"
 
 #: Library/Backend/AlternativeFTP/Strings.cs:19
 msgid ""
@@ -2155,25 +2160,26 @@ msgstr ""
 
 #: Library/Compression/Strings.cs:19
 msgid "*Experimental*: 7z Archive with LZMA2 support."
-msgstr ""
+msgstr "*実験的*: 7z アーカイブ LZMA2 方式"
 
 #: Library/Compression/Strings.cs:20
 msgid "Experimental - 7z Archive"
-msgstr ""
+msgstr "実験的 - 7z アーカイブ"
 
 #: Library/Compression/Strings.cs:21
 msgid ""
 "The number of threads used in LZMA 2 compression. Defaults to the number of "
 "processor cores."
 msgstr ""
+"LZMA 2 圧縮で使用するスレッド数。初期値はプロセッサーのコア数"
 
 #: Library/Compression/Strings.cs:22
 msgid "Number of threads used in compression"
-msgstr ""
+msgstr "圧縮時に使用するスレッド数"
 
 #: Library/Compression/Strings.cs:24
 msgid "Sets the 7z compression level"
-msgstr ""
+msgstr "7z 圧縮レベルを設定"
 
 #: Library/Compression/Strings.cs:25
 msgid ""
@@ -2254,12 +2260,12 @@ msgstr ""
 
 #: Library/Main/Strings.cs:12
 msgid "No source folders specified for backup"
-msgstr ""
+msgstr "バックアップするソースフォルダが指定されていません"
 
 #: Library/Main/Strings.cs:13
 #, csharp-format
 msgid "The source folder {0} does not exist, aborting backup"
-msgstr ""
+msgstr "ソースフォルダ {0} が存在しません。バックアップを中止します"
 
 #: Library/Main/Strings.cs:14
 #, csharp-format
@@ -2386,7 +2392,7 @@ msgstr ""
 
 #: Library/Main/Strings.cs:39
 msgid "Remote filename prefix"
-msgstr ""
+msgstr "リモートファイルにつけるプレフィックス"
 
 #: Library/Main/Strings.cs:40
 msgid ""
@@ -2572,7 +2578,7 @@ msgstr ""
 
 #: Library/Main/Strings.cs:77
 msgid "Thread priority"
-msgstr ""
+msgstr "スレッド優先度"
 
 #: Library/Main/Strings.cs:78
 msgid ""
@@ -3295,7 +3301,7 @@ msgstr ""
 
 #: Library/Main/Strings.cs:208
 msgid "Don't store metadata"
-msgstr ""
+msgstr "メタデータを保持しない"
 
 #: Library/Main/Strings.cs:209
 msgid ""
@@ -3962,7 +3968,7 @@ msgstr ""
 
 #: Library/Modules/Builtin/Strings.cs:99
 msgid "Email sender"
-msgstr ""
+msgstr "送信者"
 
 #: Library/Modules/Builtin/Strings.cs:100
 #, csharp-format
@@ -3989,7 +3995,7 @@ msgstr ""
 
 #: Library/Modules/Builtin/Strings.cs:106
 msgid "SMTP Url"
-msgstr ""
+msgstr "SMTP "
 
 #: Library/Modules/Builtin/Strings.cs:107
 #, csharp-format
@@ -4000,20 +4006,20 @@ msgstr ""
 
 #: Library/Modules/Builtin/Strings.cs:108
 msgid "The email subject"
-msgstr ""
+msgstr "件名"
 
 #: Library/Modules/Builtin/Strings.cs:109
 msgid "The username used to authenticate with the SMTP server if required."
-msgstr ""
+msgstr "ユーザー名は使用する SMTP サーバによって必要となる場合があります。"
 
 #: Library/Modules/Builtin/Strings.cs:110
 msgid "SMTP Username"
-msgstr ""
+msgstr "SMTP ユーザー名"
 
 #: Library/Modules/Builtin/Strings.cs:111
 #, csharp-format
 msgid "Failed to send email: {0}"
-msgstr ""
+msgstr "メールの送信に失敗しました {0}"
 
 #: Library/Modules/Builtin/Strings.cs:112
 #, csharp-format
